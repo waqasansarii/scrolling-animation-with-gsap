@@ -1,6 +1,10 @@
 .App {
   text-align: center;
 }
+body{
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: .2em;
+}
 
 .App-logo {
   height: 40vmin;
@@ -16,15 +20,26 @@ body,html{
   }
 }
 
+.container {
+  min-height: 100vh;
+  width: 100%;
+  /* max-width: ; */
+}
+
 .App-header {
   background-color: #191a1b;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   /* font-size: calc(10px + 2vmin); */
   color: white;
+}
+.first{
+  min-height: 100vh;
+  padding: 100px 0px;
+  padding-bottom: 150px;
 }
 h1{
   font-size: 4rem;
@@ -37,10 +52,11 @@ p{
   font-size: 7rem;
   font-weight: 700;
   margin-top: 0px;
+  margin-bottom: 50px;
   /* word-break:; */
   width: 100%;
   white-space: nowrap;
-  color: #794a8b;
+  color: #38368d;
   /* line-break: ; */
 }
 .second{
@@ -49,6 +65,10 @@ p{
 /* .transClass{
   transform: rotate(45deg);
 } */
+
+.abContent{
+  background-color: rgb(255, 174, 0);
+}
 
 @keyframes App-logo-spin {
   from {
