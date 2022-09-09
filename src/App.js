@@ -106,7 +106,7 @@ function App() {
         <div className="first">
           {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <h1>Hello</h1>
-          <p className="first-paragraph">I'm Waqas</p>
+          <p className="first-paragraph">I'm Smash Code</p>
           <h1 className="dev1"> I Am ReactJs Developer</h1>
           <h1 className="dev2">& BlockChain Developer</h1>
         </div>
